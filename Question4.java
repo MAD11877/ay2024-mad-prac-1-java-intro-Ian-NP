@@ -18,6 +18,15 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    int number = in.nextInt();
+
+    for (int i = 0; i < number; i++) {
+      int noOfTimes = number - i;
+      for (int x= 0; x < noOfTimes; x++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
     
   }
 }
